@@ -101,6 +101,7 @@ input[type="submit"] {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     color: #333;
   }
   
@@ -141,3 +142,60 @@ input[type="submit"] {
   h4{
     font-size: 20px;
   }
+
+  @media only screen and (max-width: 600px) {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column; 
+        width: auto;
+
+        }
+        nav a {
+          font-size: smaller;
+        }
+        nav li {
+            margin: 0 10px;
+        }
+        body {
+            font-size: smaller;
+          }
+          h1 {
+            font-size:xx-large;
+          } 
+          h4 {
+            font-size: small;
+
+          }
+          p {
+            font-size: medium;
+          }
+          .box {
+            flex-direction: column;
+            width: auto;
+          }
+        footer {
+            font-size: xx-small;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width:auto;
+          }
+        footer div {
+            margin: 10px;
+            padding: 0px 10px,
+          }
+          footer img {
+            max-width: 30px;
+            height: auto;
+          }
+          footer button{
+            width: 20px;
+            height: auto; 
+          }
+          p{
+            font-size: smaller;
+          }
+        }
