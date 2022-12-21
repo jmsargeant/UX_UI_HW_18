@@ -119,6 +119,7 @@ input[type="submit"] {
     padding: 10px 50px;
     width: 200px;
     cursor: pointer;
+    margin: 10px 0;
   }
   
   footer ul {
@@ -181,7 +182,7 @@ input[type="submit"] {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
-            width:auto;
+            width: auto;
           }
         footer div {
             margin: 10px;
